@@ -3,7 +3,7 @@ opencart-callback
 
 Opencart 1.5.x ajax callback module
 
-User interaction:
+User interaction:  
 1. User clicks on the link.  
 2. Modal window with a form is shown to the user.  
 3. User fills the form fields.  
