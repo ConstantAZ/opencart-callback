@@ -1,0 +1,12 @@
+<modification>
+    <id>Callback module header injection</id>
+    <version>1.0</version>
+    <vqmver>1.2</vqmver>
+    <author>Constanta panurgomatic[at]gmail[dot]com</author>
+    <file name="catalog/controller/common/header.php">
+        <operation error="log">
+            <search position="before" index="1"><![CDATA[$this->data['styles']]]></search>
+            <add trim="true"><![CDATA[$this->data['callback_module'] = $this->config->get('callback_status') ? $this->getChild('module/callback', array()) : null;]]></add>
+        </operation>
+    </file>    
+</modification>

@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.callback-form-wrapper .form-line {
+    margin-bottom:1em;
+    vertical-align: middle;
+}
+.callback-form-wrapper .form-line label {
+    font-weight: 700;
+    width: 180px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.callback-form-wrapper .form-line input {
+    vertical-align: middle;
+}
+.callback-form-wrapper .form-line img {
+    vertical-align: middle;
+}
+.callback-form-wrapper .captcha {
+    width:150px;height:35px;
+}
