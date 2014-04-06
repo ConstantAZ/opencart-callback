@@ -27,7 +27,7 @@ All of the above should be available in your opencart installation by default. I
 vqmod is optional, but you'll have to modify 1 core file if you don't have it installed (I won't blame you).  
 Module templates use some HTML5 attributes, so change them if you want to be nonHTML5 compliant.  
 
-Istallation:
+Installation:
 
 1. Copy folders to your opencart directory.  
 2. Go to site backend, enable module and adjust its settings.  
