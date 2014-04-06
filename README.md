@@ -4,26 +4,24 @@ opencart-callback
 Opencart 1.5.x ajax callback module
 
 User interaction:  
-1. User clicks on the link.  
-2. Modal window with a form is shown to the user.  
-3. User fills the form fields.  
-   If he's logged in, then name and phone fields will be filled from account info.  
-   If he's not, he'll have to input captcha (if it's enabled in module settings).  
-4. User submits the form.  
-5. Modal window with results is shown.  
-6. If all is ok, email is sent (either to default store address or one entered in module settings).  
-7. UX galore!  
+1.  User clicks on the link.  
+2.  Modal window with a form is shown to the user.  
+3.  User fills the form fields. If he's logged in, then name and phone fields will be filled from account info. If he's not, he'll have to input captcha (if it's enabled in module settings).
+4.  User submits the form.  
+5.  Modal window with results is shown.  
+6.  If all is ok, email is sent (either to default store address or one entered in module settings).  
+7.  UX galore!  
 
 Localisation:  
 English and Russian language files included.
 
 Requirements:  
-1. Opencart 1.5.x  
-2. jQuery.  
-2. Colorbox.  
+1.  Opencart 1.5.x  
+2.  jQuery.  
+2.  Colorbox.  
 All of the above should be available in your opencart installation by default. If not - it's probably your fault.  
 vqmod is optional, but you'll have to modify 1 core file if you don't have it installed (I won't blame you).  
-Module templates use some HTML5 attributes, so change them if you wan't to be nonHTML5 compliant.  
+Module templates use some HTML5 attributes, so change them if you want to be nonHTML5 compliant.  
 
 Istallation:  
 1. Copy folders to your opencart directory.  
