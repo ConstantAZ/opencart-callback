@@ -33,10 +33,10 @@ Installation:
 2. Go to site backend, enable module and adjust its settings.  
 If you're ok with using opencart layout system, do so, then jump to step 5.  
 If you have vqmod installed, jump to step 4.  
-3. In /catalog/controller/common/header.php (or any other catalog controller) add  
-    $this->data['callback_module'] = $this->config->get('callback_status') ? $this->getChild('module/callback', array()) : null;  
+3. In `/catalog/controller/common/header.php` (or any other catalog controller) add  
+   `$this->data['callback_module'] = $this->config->get('callback_status') ? $this->getChild('module/callback', array()) : null;`
    before   
-    $this->data['styles'] = $this->document->getStyles();  
-4. Modify your /catalog/view/theme/{your_theme}/template/common/header.tpl (or any other catalog template which is used by controller in step 3)  
-   Place <?php echo $callback_module; ?> where you want the module link.  
+   `$this->data['styles'] = $this->document->getStyles();`  
+4. Modify your `/catalog/view/theme/{your_theme}/template/common/header.tpl` (or any other catalog template which is used by controller in step 3)  
+   Place `<?php echo $callback_module; ?>` where you want the module link.  
 5. You're finished. Go tell you frinds about this immense accomplishment.  
